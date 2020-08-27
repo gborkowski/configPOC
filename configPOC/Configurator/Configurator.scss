@@ -1,0 +1,70 @@
+.config-wrap {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+    h3 {
+      i {
+        margin-right: 3px;
+      }
+  
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .config-form {
+    margin: 10px 0 0;
+    padding: 10px 10px;
+    border: 1px solid lightgray;
+    object-fit: contain;
+    width: 250px;
+  
+    @media #{$xs-layout} {
+      margin: 10px 0 0;
+    }
+
+    .sin-config {
+      margin: 0 0 16px;
+
+      label {
+        font-size: 12px;
+        color: #262626;
+        margin-top: 20px;
+        margin-bottom: 0px;
+      }
+
+      input {
+        background: transparent;
+        border: 1px solid #cdcdcd;
+        height: 30px;
+        padding: 15px 10px;
+
+        &:focus {
+          border: 1px solid #262626;
+        }
+      }
+
+      select {
+        background: transparent;
+        border: 1px solid #cdcdcd;
+        padding: 5px 10px;
+        display: inline-block;
+        width: 100%;
+        position: relative;
+      }
+    
+    }
+}
+
+.config-results {
+    padding: 10px 10px;
+    margin-left: 30px;
+
+    li {
+      margin-left: 20px;
+    }
+}
+
+}

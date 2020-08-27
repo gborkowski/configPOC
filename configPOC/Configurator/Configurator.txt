@@ -1,0 +1,4 @@
+de:
+  getPrice: "(German)Get Price"
+en:
+  getPrice: "Get Price"
